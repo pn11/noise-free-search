@@ -8,7 +8,8 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    container: ./
+    container:
+        image: 'Dockerfile'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
@@ -25,7 +26,8 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    container: ./
+    container:
+        image: 'Dockerfile'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
