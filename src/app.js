@@ -55,6 +55,66 @@ var app = new Vue({
                 name: 'kotaeta',
                 url: 'kotaeta.com',
                 doBlock: true
+            },
+            {
+                name: 'codeflow',
+                url: 'codeflow.site',
+                doBlock: true
+            },
+            {
+                name: 'VoidCC',
+                url: 'voidcc.com',
+                doBlock: true
+            },
+            {
+                name: 'TutorialMore',
+                url: 'https://tutorialmore.com',
+                doBlock: true
+            },
+            {
+                name: 'living-sun.com',
+                url: 'living-sun.com',
+                doBlock: true
+            },
+            {
+                name: 'code adviser',
+                url: 'code-adviser.com',
+                doBlock: true
+            },
+            {
+                name: 'not-working',
+                url: 'src-bin.com',
+                doBlock: true
+            },
+            {
+                name: 'it-swarm.net',
+                url: 'it-swarm.net/',
+                doBlock: true
+            },
+            {
+                name: 'brasscoaching.de',
+                url: 'brasscoaching.de',
+                doBlock: true
+            },
+            {
+                name: 'kinderzirkus-sulzgries.de',
+                url: 'kinderzirkus-sulzgries.de',
+                doBlock: true
+            },
+            {
+                name: '侍エンジニア塾',
+                url: 'sejuku.net',
+                doBlock: true
+            },
+            {
+                name: 'TECHACADEMY',
+                url: 'techacademy.jp',
+                doBlock: true
+            },
+            {
+                name: 'WEBCAMP NAVI',
+                url: 'web-camp.io',
+                doBlock: true
             }
         ],
         block_words: [
