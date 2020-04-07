@@ -21,13 +21,11 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: dist
-          path: dist
+          path: .
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    container:
-        image: 'Dockerfile'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
