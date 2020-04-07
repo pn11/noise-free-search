@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Noise−free Search</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="/__/firebase/6.1.1/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+        <!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+        <div id="app" class="app">
+            <div class="homepage_logo">Noise-Free Search</div>
+            <div class="search_box"><input v-model="input_query" v-on:keyup.enter="search">
+            <button id="button_search" v-on:click="search"><i class="fas fa-search"></i></button></div>
+
+            <h3>除外リスト</h3>
+            <p>{{search_query}}</p>
+            <h4>ドメイン指定</h4>
+            <block-list
+                v-for="site in sites"
+                v-bind:site="site"
+            ></block-list>
+            <h4>ワード指定</h4>
+            <block-words
+            v-for="word in block_words"
+            v-bind:word="word"
+            ></block-words>
+            <h4>ファイル形式指定</h4>
+            <filetype-list
+                v-for="ft in filetypes"
+                v-bind:filetype="ft"
+            ></filetype-list>
+            <h4>ソースコード</h4>
+            <p><a href="https://github.com/pn11/noise-free-search">https://github.com/pn11/noise-free-search</a></p>
+        </div>
+    
+        <!-- development version, includes helpful console warnings -->
+       <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+        <script src="bundle.js"></script>
+       <!-- <script type="module" src="main.js"></script>-->
+        
+    </body>
+</html>
