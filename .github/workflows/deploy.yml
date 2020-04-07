@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install
       - name: Build
-        run: node-modules/.bin/webpack
+        run: node_modules/.bin/webpack
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
