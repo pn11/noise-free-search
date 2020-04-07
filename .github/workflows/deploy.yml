@@ -7,14 +7,14 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: ./
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
       - name: Build
-        run: npm run build-prod
+        run: node-modules/.bin/webpack
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:

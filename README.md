@@ -54,8 +54,8 @@ Web フレームワークを初めて使ってみた。
 
 ```sh
 yarn add firebase firebase-tools
-node-modules./.bin/firebase login
-node-modules./.bin/firebase init
+node_modules/.bin/firebase login
+node_modules/.bin/firebase init
 ```
 
 で Hosting を選び public directory を `www` に指定する以外はすべて default で OK.
