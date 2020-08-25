@@ -88,7 +88,12 @@ var app = new Vue({
             },
             {
                 name: 'it-swarm.net',
-                url: 'it-swarm.net/',
+                url: 'it-swarm.net',
+                doBlock: true
+            },
+            {
+                name: 'it-swarm.dev',
+                url: 'it-swarm.dev',
                 doBlock: true
             },
             {
