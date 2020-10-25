@@ -31,9 +31,20 @@ var app = new Vue({
         search_button_name: 'Search with Google',
         input_query: 'Search query',
         sites: [
+            // 機械翻訳系
             {
-                name: 'stackoverrun',
-                url: 'stackoverrun.com',
+                name: 'brasscoaching.de',
+                url: 'brasscoaching.de',
+                doBlock: true
+            },
+            {
+                name: 'code adviser',
+                url: 'code-adviser.com',
+                doBlock: true
+            },
+            {
+                name: 'CodeDay',
+                url: 'codeday.me',
                 doBlock: true
             },
             {
@@ -47,48 +58,8 @@ var app = new Vue({
                 doBlock: true
             },
             {
-                name: 'CodeDay',
-                url: 'codeday.me',
-                doBlock: true
-            },
-            {
-                name: 'kotaeta',
-                url: 'kotaeta.com',
-                doBlock: true
-            },
-            {
                 name: 'codeflow',
                 url: 'codeflow.site',
-                doBlock: true
-            },
-            {
-                name: 'VoidCC',
-                url: 'voidcc.com',
-                doBlock: true
-            },
-            {
-                name: 'TutorialMore',
-                url: 'https://tutorialmore.com',
-                doBlock: true
-            },
-            {
-                name: 'living-sun.com',
-                url: 'living-sun.com',
-                doBlock: true
-            },
-            {
-                name: 'code adviser',
-                url: 'code-adviser.com',
-                doBlock: true
-            },
-            {
-                name: 'not-working',
-                url: 'src-bin.com',
-                doBlock: true
-            },
-            {
-                name: 'it-swarm.net',
-                url: 'it-swarm.net',
                 doBlock: true
             },
             {
@@ -97,8 +68,8 @@ var app = new Vue({
                 doBlock: true
             },
             {
-                name: 'brasscoaching.de',
-                url: 'brasscoaching.de',
+                name: 'it-swarm.net',
+                url: 'it-swarm.net',
                 doBlock: true
             },
             {
@@ -106,6 +77,37 @@ var app = new Vue({
                 url: 'kinderzirkus-sulzgries.de',
                 doBlock: true
             },
+            {
+                name: 'kotaeta',
+                url: 'kotaeta.com',
+                doBlock: true
+            },
+            {
+                name: 'living-sun.com',
+                url: 'living-sun.com',
+                doBlock: true
+            },
+            {
+                name: 'not-working',
+                url: 'src-bin.com',
+                doBlock: true
+            },
+            {
+                name: 'TutorialMore',
+                url: 'https://tutorialmore.com',
+                doBlock: true
+            },
+            {
+                name: 'VoidCC',
+                url: 'voidcc.com',
+                doBlock: true
+            },
+            {
+                name: 'stackoverrun',
+                url: 'stackoverrun.com',
+                doBlock: true
+            },
+            // tech camp 系
             {
                 name: '侍エンジニア塾',
                 url: 'sejuku.net',
