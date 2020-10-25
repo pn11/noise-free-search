@@ -63,6 +63,11 @@ var app = new Vue({
                 doBlock: true
             },
             {
+                name: 'fixes.pub',
+                url: 'fixes.pub',
+                doBlock: true
+            },
+            {
                 name: 'it-swarm.dev',
                 url: 'it-swarm.dev',
                 doBlock: true
