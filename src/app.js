@@ -33,6 +33,11 @@ var app = new Vue({
         sites: [
             // 機械翻訳系
             {
+                name: '366service.com',
+                url: '366service.com',
+                doBlock: true
+            },
+            {
                 name: 'brasscoaching.de',
                 url: 'brasscoaching.de',
                 doBlock: true
