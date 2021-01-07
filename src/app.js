@@ -103,6 +103,16 @@ var app = new Vue({
                 doBlock: true
             },
             {
+                name: 'python5',
+                url: '/python5.com',
+                doBlock: true
+            },
+            {
+                name: 'stackoverrun',
+                url: 'stackoverrun.com',
+                doBlock: true
+            },
+            {
                 name: 'TutorialMore',
                 url: 'https://tutorialmore.com',
                 doBlock: true
@@ -110,11 +120,6 @@ var app = new Vue({
             {
                 name: 'VoidCC',
                 url: 'voidcc.com',
-                doBlock: true
-            },
-            {
-                name: 'stackoverrun',
-                url: 'stackoverrun.com',
                 doBlock: true
             },
             // tech camp 系
