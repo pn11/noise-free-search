@@ -68,6 +68,11 @@ var app = new Vue({
                 doBlock: true
             },
             {
+                name: 'codetd.com',
+                url: 'codetd.com',
+                doBlock: true
+            },
+            {
                 name: 'fixes.pub',
                 url: 'fixes.pub',
                 doBlock: true
@@ -80,6 +85,11 @@ var app = new Vue({
             {
                 name: 'it-swarm.net',
                 url: 'it-swarm.net',
+                doBlock: true
+            }, 
+            {
+                name: 'it-swarm-ja.tech',
+                url: 'it-swarm-ja.tech',
                 doBlock: true
             },
             {
@@ -104,9 +114,14 @@ var app = new Vue({
             },
             {
                 name: 'python5',
-                url: '/python5.com',
+                url: 'python5.com',
                 doBlock: true
             },
+            {
+                name: 'qastack.jp',
+                url: 'qastack.jp',
+                doBlock: true
+            },           
             {
                 name: 'stackoverrun',
                 url: 'stackoverrun.com',
