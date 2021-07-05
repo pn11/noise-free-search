@@ -38,6 +38,11 @@ var app = new Vue({
                 doBlock: true
             },
             {
+                name: 'bleepcoder.com',
+                url: 'bleepcoder.com',
+                doBlock: true
+            },
+            {
                 name: 'brasscoaching.de',
                 url: 'brasscoaching.de',
                 doBlock: true
@@ -75,6 +80,16 @@ var app = new Vue({
             {
                 name: 'fixes.pub',
                 url: 'fixes.pub',
+                doBlock: true
+            },
+            {
+                name: 'generacodice.com (Stack Overflow へのリンクあり)',
+                url: 'generacodice.com',
+                doBlock: true
+            },
+            {
+                name: 'isolution.pro',
+                url: 'isolution.pro',
                 doBlock: true
             },
             {
