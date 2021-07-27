@@ -88,6 +88,11 @@ var app = new Vue({
                 doBlock: true
             },
             {
+                name: 'ichi.pro',
+                url: 'ichi.pro',
+                doBlock: true
+            },
+            {
                 name: 'isolution.pro',
                 url: 'isolution.pro',
                 doBlock: true
