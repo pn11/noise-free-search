@@ -138,6 +138,11 @@ var app = new Vue({
                 doBlock: true
             },
             {
+                name: 'qapicks.com',
+                url: 'qapicks.com',
+                doBlock: true
+            },  
+            {
                 name: 'qastack.jp',
                 url: 'qastack.jp',
                 doBlock: true
