@@ -25,177 +25,18 @@ Vue.component('filetype-list', {
         </div>`
 })
 
+import sites_data from "./assets/sites_data.json";
+import words_data from "./assets/words_data.json";
+import filetypes_data from "./assets/filetypes_data.json";
+
 var app = new Vue({
     el: '#app',
     data: {
         search_button_name: 'Search with Google',
         input_query: 'Search query',
-        sites: [
-            // 機械翻訳系
-            {
-                name: '366service.com',
-                url: '366service.com',
-                doBlock: true
-            },
-            {
-                name: 'bleepcoder.com',
-                url: 'bleepcoder.com',
-                doBlock: true
-            },
-            {
-                name: 'brasscoaching.de',
-                url: 'brasscoaching.de',
-                doBlock: true
-            },
-            {
-                name: 'code adviser',
-                url: 'code-adviser.com',
-                doBlock: true
-            },
-            {
-                name: 'CodeDay',
-                url: 'codeday.me',
-                doBlock: true
-            },
-            {
-                name: 'code.i-harness',
-                url: 'code.i-harness.com',
-                doBlock: true
-            },
-            {
-                name: 'CODE Examples',
-                url: 'code-examples.net',
-                doBlock: true
-            },
-            {
-                name: 'codeflow',
-                url: 'codeflow.site',
-                doBlock: true
-            },
-            {
-                name: 'codetd.com',
-                url: 'codetd.com',
-                doBlock: true
-            },
-            {
-                name: 'fixes.pub',
-                url: 'fixes.pub',
-                doBlock: true
-            },
-            {
-                name: 'generacodice.com (Stack Overflow へのリンクあり)',
-                url: 'generacodice.com',
-                doBlock: true
-            },
-            {
-                name: 'ichi.pro',
-                url: 'ichi.pro',
-                doBlock: true
-            },
-            {
-                name: 'isolution.pro',
-                url: 'isolution.pro',
-                doBlock: true
-            },
-            {
-                name: 'it-swarm.dev',
-                url: 'it-swarm.dev',
-                doBlock: true
-            },
-            {
-                name: 'it-swarm.net',
-                url: 'it-swarm.net',
-                doBlock: true
-            }, 
-            {
-                name: 'it-swarm-ja.tech',
-                url: 'it-swarm-ja.tech',
-                doBlock: true
-            },
-            {
-                name: 'kinderzirkus-sulzgries.de',
-                url: 'kinderzirkus-sulzgries.de',
-                doBlock: true
-            },
-            {
-                name: 'kotaeta',
-                url: 'kotaeta.com',
-                doBlock: true
-            },
-            {
-                name: 'living-sun.com',
-                url: 'living-sun.com',
-                doBlock: true
-            },
-            {
-                name: 'not-working',
-                url: 'src-bin.com',
-                doBlock: true
-            },
-            {
-                name: 'python5',
-                url: 'python5.com',
-                doBlock: true
-            },
-            {
-                name: 'qapicks.com',
-                url: 'qapicks.com',
-                doBlock: true
-            },  
-            {
-                name: 'qastack.jp',
-                url: 'qastack.jp',
-                doBlock: true
-            },           
-            {
-                name: 'stackoverrun',
-                url: 'stackoverrun.com',
-                doBlock: true
-            },
-            {
-                name: 'TutorialMore',
-                url: 'https://tutorialmore.com',
-                doBlock: true
-            },
-            {
-                name: 'VoidCC',
-                url: 'voidcc.com',
-                doBlock: true
-            },
-            // tech camp 系
-            {
-                name: '侍エンジニア塾',
-                url: 'sejuku.net',
-                doBlock: true
-            },
-            {
-                name: 'TECHACADEMY',
-                url: 'techacademy.jp',
-                doBlock: true
-            },
-            {
-                name: 'CodeCamp',
-                url: 'codecamp.jp',
-                doBlock: true
-            },
-            {
-                name: 'WEBCAMP NAVI',
-                url: 'web-camp.io',
-                doBlock: true
-            }
-        ],
-        block_words: [
-            {
-                name: 'いかがでしたか',
-                doBlock: true
-            }
-        ],
-        filetypes: [
-            {
-                name: 'pdf',
-                doSpecify: false
-            }
-        ]
+        sites: sites_data,
+        block_words: words_data,
+        filetypes: filetypes_data
     },
     methods:{
         search: function(){
