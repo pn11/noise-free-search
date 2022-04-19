@@ -80,6 +80,11 @@
         "doBlock": true
     },
     {
+        "name": "jablogs.com",
+        "url": "jablogs.com",
+        "doBlock": true
+    },
+    {
         "name": "kinderzirkus-sulzgries.de",
         "url": "kinderzirkus-sulzgries.de",
         "doBlock": true
