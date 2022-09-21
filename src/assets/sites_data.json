@@ -5,6 +5,11 @@
         "doBlock": true
     },
     {
+        "name": "anycodings.com",
+        "url": "anycodings.com",
+        "doBlock": true
+    },
+    {
         "name": "bleepcoder.com",
         "url": "bleepcoder.com",
         "doBlock": true
